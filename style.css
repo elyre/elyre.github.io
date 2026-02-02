@@ -89,8 +89,8 @@ h1 {
     font-size: 84px;                 /* approximate size of Google logo */
     font-weight: 400;                /* normal weight (Google logo is light) */
     color: #4285F4;                  /* Google blue for first letter, or all text if you want */
-    letter-spacing: -1px;            /* tighten spacing like logo */
-    margin: 40px 0 20px 0;           /* vertical spacing like homepage */
+    letter-spacing: -1px;
+    margin: 40px 0 20px 0;
 }
 
 
