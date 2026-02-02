@@ -13,6 +13,7 @@ html, body {
     align-items: center;
     font-family: Arial, sans-serif;
     background-color: white;
+    gap: 24px;   
 }
 
 .nav {
@@ -85,15 +86,14 @@ input[type="submit"][value="I'm Feeling Lucky"]:hover {
 }
 
 h1 {
-    text-align: center;              /* center like Google */
-    font-family: 'Product Sans', Arial, sans-serif; /* Google's font or fallback */
-    font-size: 84px;                 /* approximate size of Google logo */
-    font-weight: 400;                /* normal weight (Google logo is light) */
-    color: #4285F4;                  /* Google blue for first letter, or all text if you want */
+    text-align: center;
+    font-family: 'Product Sans', Arial, sans-serif;
+    font-size: 84px;
+    font-weight: 400;
+    color: #4285F4;
     letter-spacing: -1px;
     margin: 40px 0 20px 0;
 }
-
 
 h3 {
     text-align: left;
