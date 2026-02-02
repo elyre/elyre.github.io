@@ -6,13 +6,13 @@ html, body {
 
 .search {
     margin: 0;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
     background-color: white;
+    padding-top: 150px;
     gap: 24px;   
 }
 
@@ -92,7 +92,7 @@ h1 {
     font-weight: 400;
     color: #4285F4;
     letter-spacing: -1px;
-    margin: 40px 0 20px 0;
+    margin: 0;
 }
 
 h3 {
