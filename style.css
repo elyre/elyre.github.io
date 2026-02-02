@@ -50,7 +50,7 @@ html, body {
     box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
 }
 
-input[type="submit"] {
+input[type="submit"][value="Google Search"] {
     margin-top: 24px;
     padding: 10px 18px;
     font-size: 14px;
@@ -61,10 +61,38 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-input[type="submit"]:hover {
+input[type="submit"][value="Google Search"]:hover {
     border: 1px solid #dadce0;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
+
+input[type="submit"][value="I'm Feeling Lucky"] {
+    display: block;
+    margin-top: 24px;
+    padding: 10px 18px;
+    font-size: 14px;
+    border-radius: 999px;
+    border: 1px solid transparent;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    cursor: pointer;
+}
+
+input[type="submit"][value="I'm Feeling Lucky"]:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;              /* center like Google */
+    font-family: 'Product Sans', Arial, sans-serif; /* Google's font or fallback */
+    font-size: 84px;                 /* approximate size of Google logo */
+    font-weight: 400;                /* normal weight (Google logo is light) */
+    color: #4285F4;                  /* Google blue for first letter, or all text if you want */
+    letter-spacing: -1px;            /* tighten spacing like logo */
+    margin: 40px 0 20px 0;           /* vertical spacing like homepage */
+}
+
 
 h3 {
     text-align: left;
