@@ -50,7 +50,7 @@ html, body {
     box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
 }
 
-input[type="submit"][value="Google Search"] {
+input[type="submit"] {
     margin-top: 24px;
     padding: 10px 18px;
     font-size: 14px;
@@ -61,7 +61,7 @@ input[type="submit"][value="Google Search"] {
     cursor: pointer;
 }
 
-input[type="submit"][value="Google Search"]:hover {
+input[type="submit"]:hover {
     border: 1px solid #dadce0;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
