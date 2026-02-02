@@ -12,18 +12,18 @@
         <h3>Find pages with...</h3>
 
         <div class="advanced">
-            <form action="https://www.google.com/search">
+            <form action="https://www.google.com/search" method="GET">
                 <label for="field1">All these words:</label>
-                <input type="text" id="field1" name="field1">
+                <input type="text" id="field1" name="as_q">
 
-                <label for="field1">This exact word or phrase:</label>
-                <input type="text" id="field2" name="field2">
+                <label for="field2">This exact word or phrase:</label>
+                <input type="text" id="field2" name="as_epq">
 
-                <label for="field1">Any of these words:</label>
-                <input type="text" id="field3" name="field3">
+                <label for="field3">Any of these words:</label>
+                <input type="text" id="field3" name="as_oq">
 
-                <label for="field1">None of these words:</label>
-                <input type="text" id="field4" name="field4">
+                <label for="field4">None of these words:</label>
+                <input type="text" id="field4" name="as_eq">
 
                 <input type="submit" value="Advanced Search">
             </form>
